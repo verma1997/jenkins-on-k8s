@@ -56,7 +56,7 @@ spec:
       serviceAccountName: jenkins
       containers:
         - name: jenkin-master
-          image: gcr.io/first-project-277206/jenkins:v1
+          image: gcr.io/<project_id>/jenkins:v1
           ports:
             - name: http-port
               containerPort: 8080
