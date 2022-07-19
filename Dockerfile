@@ -1,4 +1,3 @@
-MAINTAINER Priyanshu Verma
 FROM jenkins/jenkins:2.222.4
 USER root
 RUN apt-get update -qq \
